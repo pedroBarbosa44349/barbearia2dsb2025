@@ -1,0 +1,87 @@
+<html lang="pt=br">
+<head>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+            <h1><Img id="logo"src="barbearia logo.png"></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produto.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form>
+                <label for="NomeSobrenome" class="input-padrão">Nome e Sobrenome </label>
+                <input type="text" id="NomeSobrenome" class="input-padrão">
+                 
+                <label for="email">E-mail</label>
+                <input type="text" id="email" class="input-padrão">
+
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" class="input-padrão">
+
+                <label for="Mensagem"> Mensagem</label>
+                <textarea cols="70" rows="10" id="Mensagem" class="input-padrão"></textarea>
+            
+                <div>
+                    <p>Como prefere falar com nois meu mano?</p>
+                    <label for="radio-email">
+                        <input type="radio" name="contato" value="email" id="radio-email">
+                        Email
+                    </label>
+                    <label for="radio-telefone">
+                        <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                        Telefone
+                    </label>
+                    <label for="radio-whatssap">
+                        <input type="radio" name="contato" value="whatssap" id="radio-whatssap">
+                        Whatssap
+                    </label>
+                </div>
+                <div> 
+                    <p>Qual horário prefere ser atendido</p>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </div>
+                <label class="checkbox">
+                    <input type="checkbox">
+                    Gostaria de receber nossas novidades por email?
+                </label>
+
+                <input type="submit" value="Enviar Formulario">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Horário</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                        <tr>
+                            <td>quarta</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </form>
+        </main>
+        <footer>
+            <img src="barbearia logo.png">
+            <p class="copyright">&copy; Copyrirgth Pedro Barbosa - 2025</p>
+        </footer>
+    </body>
+    </html>
